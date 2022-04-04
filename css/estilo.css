@@ -1,0 +1,216 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sans-serif;
+}
+body {
+    max-width: 400px;
+    margin: auto;
+    background: radial-gradient(circle, rgb(245, 246, 248) 0%, rgb(242, 243, 247) 52%, rgb(247, 244, 244) 100%);
+}
+.quiniela {
+    margin: auto;
+    background-image: url("../img/quiniela.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    border-radius: 15px;
+}
+.botones {
+    margin-top: 10px;
+    width: 100%;
+}
+@media (max-width: 400px){
+    .botones {
+        margin-top: 5px;
+    }
+}
+.aux {
+    width: 100%;
+    height: 13.3%;
+    padding-top: 2.5%;
+}
+.quiniela span {
+    margin: 1px;
+    width: 10.6%;
+    display: inline-flex;
+    -webkit-transition:background-color 0.3s ease;
+    -moz-transition:background-color 0.3s ease;
+    -o-transition:background-color 0.3s ease;
+    transition:background-color 0.3s ease;  
+}
+#_ {
+    width: 34.1%;
+    height: 100%;
+    display: inline-flex;
+}
+.partido {
+    display: flex;
+    height: 6.67%;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    padding: 19px;
+    color: #141414;
+    margin-top: 8%;
+    border-radius: 0 0 10px 10px;
+    background: rgb(240, 243, 240);
+    background: radial-gradient(circle, rgb(247, 246, 248) 0%, rgb(242, 242, 243) 52%, rgb(78, 70, 70) 100%);
+    font-size: x-large;
+}
+h2, h3 {
+    text-align: center;
+    box-shadow: 2px 2px 2px #fdfcfc;
+    border-radius: 10px;
+}
+.botonenviar {
+    background: #f8faf9; 
+    color: #131212  ;   
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top:8px;
+    height: 64px;
+    border: 1px solid #0c0c0c;
+}
+.botonenviar span {
+    font-size: 13px;
+}
+.imgref {
+    width: 25px;
+    height: 25px;
+}
+#botonlisto {
+    background: #fffffe; 
+    color: #111111;
+    font-size: 10px;
+    padding: 10px;
+    height: 64px;
+    border: 1px solid #000000;
+}
+#botonborrar {
+    background: #f5f3f3;
+    color: #1a1919;
+    font-size: 10px;
+    padding: 10px;
+    height: 64px;
+    border: 1px solid #0f0f0f;
+}
+#nombrebox {
+    background: #f9faf9;
+    border-radius: 10px;
+    height: 64px;
+    text-align: center;
+    border: 1px solid #ece6e6;
+    box-shadow: 2px 2px 2px #0f0f0f;
+}
+#nombretext {
+    color: #000000;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+}
+#nombre {
+    background: #FFFFFF;
+    display: inline-block;
+    width: 95%;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    text-align: center;
+    height: 20px;
+}
+.cuadronombre {
+    padding-left: 5px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+}
+#random {
+    background: #f1f3f3;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    font-size: 13px;
+    height: 64px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7px;
+}
+p {
+    padding: 10px;
+}
+#display {
+    border: 1px solid #f0ebeb;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+    text-align: left;
+    padding: 5x 0px;
+    margin-bottom: 10px;
+    table-layout: fixed;
+    box-shadow: 2px 2px 2px #000000;  
+}
+#display td {
+    border-right: 1px solid #0a0a0a;
+    text-align: center;
+    overflow-x: hidden;
+}
+h4 {
+    float: left;
+    display: contents;
+    text-align: center;
+}
+h6 {
+    display: inline;
+}
+#total {
+    display: inline-block;
+    float: right;
+    margin-top: 7px;
+    padding: 0 2px;
+}
+#costo, #numquinielas {
+    color: #030303;
+    display: inline;
+    padding: 0 2px;
+}
+.titulo-quinielas {
+    color: #0a0a0a;    
+    text-align: center;
+    background: #fffdfd96;
+    box-shadow: 2px 2px 2px #030303;
+    border-radius: 5px 5px 0px 0px;
+    border-left: 1px solid #0f0f0f;
+    border-right: 1px solid #0f0f0f;
+    border-top: 1px solid #111111;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.suma {
+    background: #fbfcfdf1;
+    color: #0c0c0c;
+    border-radius: 5px;
+    box-right-shadow: 2px #f7eeee;
+    height: 45px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid rgb(12, 12, 12);
+}
+.instrucciones {
+    margin-top: 5px;
+    width: 100%;
+}
+.reglas {
+    background: #f7f7f7;
+    border-radius: 10px;
+    border: 1px solid rgb(12, 12, 12);
+    font-size: 11px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 2px #f5f3f3;
+}
+.nombre-div {
+    border: 1px;
+}
